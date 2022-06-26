@@ -1,7 +1,7 @@
 
 body{
   font-family: sans-serif;
-background-color: whitesmoke}
+  background-color: whitesmoke}
 
 
 #next1{
@@ -27,14 +27,27 @@ background-color: whitesmoke}
   }
   
   #ending{
-    color: blueviolet;
-  }
+    color: blueviolet
+      }
    
   #food{
      border: none;
      padding:5px;
      margin-left: 99px;
-     }
+     background-color: whitesmoke;
+   }
+  #food-sec {
+    padding: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border-color: red;
+    text-shadow: 3px 3px 5px red;
+    background-color: rgb(195, 190, 192);
+    box-shadow: 5px 5px 10px red;
+  }
+
   #food:hover{
     box-shadow: 3px 3px 5px rgb(240, 11, 11);
     padding-right: 10px;
@@ -42,8 +55,7 @@ background-color: whitesmoke}
     cursor: pointer;
     padding-left: 10px;
   }
-
-    
+      
   #thingstodo:hover{
     box-shadow: 3px 3px 5px rgb(240, 11, 11);
     padding-right: 10px;
@@ -55,7 +67,8 @@ background-color: whitesmoke}
   #thingstodo{
     border: none;
     padding: 5px;
-    margin-left: 99px;  
+    margin-left: 99px;
+    background-color: whitesmoke;  
   }
 
   #thingstodo-sec {      
@@ -66,7 +79,7 @@ background-color: whitesmoke}
     border-radius: 100px;
     border-color: red;
     text-shadow: 3px 3px 5px red;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(195, 190, 192);
     box-shadow: 5px 5px 10px red ;
   }
 
@@ -94,7 +107,7 @@ background-color: whitesmoke}
     border-radius: 100px;
     border-color: red;
     text-shadow: 3px 3px 5px red;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(195, 190, 192);
     box-shadow: 5px 5px 10px red ;
   }
        
