@@ -67,7 +67,7 @@ body{
   #thingstodo{
     border: none;
     padding: 5px;
-    margin-left: 99px;
+    margin-left: 69px;
     background-color: whitesmoke;  
   }
 
@@ -86,7 +86,7 @@ body{
   #hotels{
     border: none;
     padding:5px;
-    margin-left: 99px;
+    margin-left: 69px;
     background-color: whitesmoke;
   }
 
@@ -110,7 +110,7 @@ body{
     background-color: rgb(195, 190, 192);
     box-shadow: 5px 5px 10px red ;
   }
-       
+      
 #next2{
   width: 66%;
   position: relative;
