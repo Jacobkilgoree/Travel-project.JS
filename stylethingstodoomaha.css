@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+  background-color: whitesmoke
+}
+
+#Thingstodo1{
+  color: Black;
+  font-stretch: bold;
+}
+
+#WestOmaha1{
+  color: red;
+  text-align: Left;
+  width: 33%;
+  position: relative;
+  Left: 200px;
+}
+
+#WestOmaha11{
+    color:black;
+}
+
+#MidTown1{
+  color: red;
+  text-align: left;
+  width: 33%;
+  position: relative;
+  Left: 600px;
+}
+
+#MidTown11{
+    color: black;
+}
+
+#OldMarket1{
+  color: red;
+  text-align: left;
+  width: 33%;
+  position: relative;
+  Left: 1000px;
+}
+
+#OldMarket11{
+    color: black;
+}

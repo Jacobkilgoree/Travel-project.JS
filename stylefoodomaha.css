@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+  background-color: whitesmoke
+}
+
+#Food1{
+  color: Black;
+  font-stretch: bold;
+}
+
+#WestOmaha3{
+  color: red;
+  text-align: Left;
+  width: 33%;
+  position: relative;
+  Left: 200px;
+}
+
+#WestOmaha33{
+    color:black;
+}
+
+#MidTown3{
+  color: red;
+  text-align: left;
+  width: 33%;
+  position: relative;
+  Left: 600px;
+}
+
+#MidTown33{
+    color: black;
+}
+
+#OldMarket3{
+  color: red;
+  text-align: left;
+  width: 33%;
+  position: relative;
+  Left: 1000px;
+}
+
+#OldMarket33{
+    color: black;
+}

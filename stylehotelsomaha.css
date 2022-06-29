@@ -1,0 +1,45 @@
+body{
+    font-family: sans-serif;
+  background-color: whitesmoke
+}
+
+#Hotels1{
+  color: Black;
+  font-stretch: bold;
+}
+
+#WestOmaha2{
+  color: red;
+  text-align: Left;
+  width: 33%;
+  position: relative;
+  Left: 200px;
+}
+
+#WestOmaha22{
+    color:black;
+}
+
+#MidTown2{
+  color: red;
+  text-align: left;
+  width: 33%;
+  position: relative;
+  Left: 600px;
+}
+
+#MidTown22{
+    color: black;
+}
+
+#OldMarket2{
+  color: red;
+  text-align: left;
+  width: 33%;
+  position: relative;
+  Left: 1000px;
+}
+
+#OldMarket22{
+    color: black;
+}

@@ -1,32 +1,53 @@
 
 body{
   font-family: sans-serif;
-background-color: whitesmoke}
+  background-color: whitesmoke}
 
 
-
+#next1{
+    width: 66%;
+    position: relative;
+    Left: 250px;
+}
 
   
   #omaha{
     color: red;
     text-align: center;
-    text-decoration: underline;}
+    text-decoration: underline;
+  }
 
   a{
     display: block;
-    text-align: right;}
-p{
-  text-shadow: orangered 0px 5px}
+    text-align: right;
+  }
+
+  p{
+    text-shadow: orangered 0px 5px
+  }
   
   #ending{
-    color: blueviolet;
-  }
+    color: blueviolet
+      }
    
   #food{
      border: none;
      padding:5px;
      margin-left: 99px;
-     }
+     background-color: whitesmoke;
+   }
+  #food-sec {
+    padding: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border-color: red;
+    text-shadow: 3px 3px 5px red;
+    background-color: rgb(195, 190, 192);
+    box-shadow: 5px 5px 10px red;
+  }
+
   #food:hover{
     box-shadow: 3px 3px 5px rgb(240, 11, 11);
     padding-right: 10px;
@@ -34,166 +55,68 @@ p{
     cursor: pointer;
     padding-left: 10px;
   }
-
-    
-    #thingstodo:hover{
-      box-shadow: 3px 3px 5px rgb(240, 11, 11);
-      padding-right: 10px;
-      transition: 0.9s;
-      cursor: pointer;
-      padding-left: 10px;
-    }
-    #thingstodo{
-      border: none;
-      padding: 5px;
-      margin-left: 99px;
-     
       
-      
-    }
-    #thingstodo-sec {
-      
-      padding: 40px;
-      font-weight: bold;
-      margin-bottom: 24px;
-      color: rgb(0, 0, 0);
-      border-radius: 100px;
-      border-color: red;
-     text-shadow: 3px 3px 5px red;
-     background-color: rgb(255, 255, 255);
-     box-shadow: 5px 5px 10px red ;
-      
-    }
+  #thingstodo:hover{
+    box-shadow: 3px 3px 5px rgb(240, 11, 11);
+    padding-right: 10px;
+    transition: 0.9s;
+    cursor: pointer;
+    padding-left: 10px;
+  }
 
-      
-      #hotels{
-        border: none;
-        padding:5px;
-        margin-left: 99px;
-        
-        background-color: whitesmoke;
-       
-      }
-      #hotels:hover {
-        box-shadow: 3px 3px 5px rgb(240, 11, 11);
-        padding-right: 10px;
-        transition: 0.9s;
-        cursor: pointer;
-        padding-left: 10px;
-      }
+  #thingstodo{
+    border: none;
+    padding: 5px;
+    margin-left: 69px;
+    background-color: whitesmoke;  
+  }
 
-      #hotels-sec {
-        border: none;
-        padding: 40px;
-        font-weight: bold;
-        margin-bottom: 24px;
-        color: rgb(0, 0, 0);
-        border-radius: 100px;
-        border-color: red;
-       text-shadow: 3px 3px 5px red;
-       background-color: rgb(255, 255, 255);
-       box-shadow: 5px 5px 10px red ;
+  #thingstodo-sec {      
+    padding: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border-color: red;
+    text-shadow: 3px 3px 5px red;
+    background-color: rgb(195, 190, 192);
+    box-shadow: 5px 5px 10px red ;
+  }
 
-      }
-
-
-
-
-
-      #Iowa{
-        color: rgb(239, 243, 1);
-        text-align: center;
-        text-decoration: underline black}
-
-
-
-
-      
-  #food2{
+  #hotels{
     border: none;
     padding:5px;
-    margin-left: 99px;
-    }
- #food2:hover{
-   box-shadow: 3px 3px 5px rgb(239, 243, 1);
-   padding-right: 10px;
-   transition: 0.9s;
-   cursor: pointer;
-   padding-left: 10px;
- }
+    margin-left: 69px;
+    background-color: whitesmoke;
+  }
 
-   
-   #thingstodo2:hover{
-     box-shadow: 3px 3px 5px rgb(239, 243, 1);
-     padding-right: 10px;
-     transition: 0.9s;
-     cursor: pointer;
-     padding-left: 10px;
-   }
-   #thingstodo2{
-     border: none;
-     padding: 5px;
-     margin-left: 99px;
-    
-     
-     
-   }
-   #thingstodo-sec2 {
-     
-     padding: 40px;
-     font-weight: bold;
-     margin-bottom: 24px;
-     color: white;
-     border-radius: 100px;
-     border-color: rgb(239, 243, 1);
-    text-shadow: 3px 3px 5px rgb(239, 243, 1);
-    background-color: black;
-    box-shadow: 5px 5px 10px rgb(239, 243, 1);
-     
-   }
+  #hotels:hover {
+    box-shadow: 3px 3px 5px rgb(240, 11, 11);
+    padding-right: 10px;
+    transition: 0.9s;
+    cursor: pointer;
+    padding-left: 10px;
+  }
 
-     
-     #hotels2{
-       border: none;
-       padding:5px;
-       margin-left: 99px;
-       
-       background-color: whitesmoke;
+  #hotels-sec {
+    border: none;
+    padding: 40px;
+    font-weight: bold;
+    margin-bottom: 24px;
+    color: rgb(0, 0, 0);
+    border-radius: 100px;
+    border-color: red;
+    text-shadow: 3px 3px 5px red;
+    background-color: rgb(195, 190, 192);
+    box-shadow: 5px 5px 10px red ;
+  }
       
-     }
-     #hotels2:hover {
-       box-shadow: 3px 3px 5px rgb(239, 243, 1);
-       padding-right: 10px;
-       transition: 0.9s;
-       cursor: pointer;
-       padding-left: 10px;
-     }
+#next2{
+  width: 66%;
+  position: relative;
+  Left: 250px;
 
-     #hotels-sec2 {
-       border: none;
-       padding: 40px;
-       font-weight: bold;
-       margin-bottom: 24px;
-       color: white;
-       border-radius: 100px;
-       border-color: rgb(239, 243, 1);
-      text-shadow:  3px 3px 5px rgb(239, 243, 1);
-      background-color: black;
-      box-shadow: 5px 5px 10px rgb(239, 243, 1);
-
-     }
-
-
-
-
-
-
-
-
-
-     
-
-
+}
      #denver{
       color: orange;
       text-align: center;
