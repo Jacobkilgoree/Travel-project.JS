@@ -3,9 +3,34 @@ body{
   background-color: whitesmoke
 }
 
+#HaveFun{
+  border: black;
+  border-style: ridge;
+  padding: 25px;
+  margin-left: 150px;
+  background-color: rgb(167, 167, 167);
+  border-color: red;
+  border-radius: 100px;
+  font-style: italic;
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  }
+
+#HaveFun:hover{
+  box-shadow: 10px 10px 15px rgb(100, 81, 81);
+  padding-right: 10px;
+  transition: 0.9s;
+  cursor: pointer;
+  padding-left: 10px;
+  
+}
+
 #Thingstodo1{
   color: Black;
-  font-stretch: bold;
+  font-weight: bold;
+  font-style: italic;
+  
 }
 
 #WestOmaha1{
