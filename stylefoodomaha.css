@@ -4,24 +4,32 @@ body{
 }
 
 #Food1{
-  color: Black;
+  color: rgb(255, 0, 0);
   font-stretch: bold;
+  text-decoration: underline;
+  margin-bottom: 100px;
+  text-align: center;
+  
 }
 
 #WestOmaha3{
-  color: red;
+  color: rgb(0, 0, 0);
   text-align: Left;
   width: 33%;
   position: relative;
   Left: 200px;
+  
 }
 
 #WestOmaha33{
-    color:black;
+    color:rgb(255, 0, 0);
+    margin-bottom: 20px;
+    text-decoration: underline;
+    
 }
 
 #MidTown3{
-  color: red;
+  color: rgb(0, 0, 0);
   text-align: left;
   width: 33%;
   position: relative;
@@ -29,17 +37,176 @@ body{
 }
 
 #MidTown33{
-    color: black;
+    color: rgb(255, 0, 0);
 }
 
 #OldMarket3{
-  color: red;
-  text-align: left;
+  color: rgb(0, 0, 0);
+  
   width: 33%;
   position: relative;
   Left: 1000px;
 }
 
 #OldMarket33{
-    color: black;
+    color: rgb(255, 0, 0);
 }
+#OldMarket{
+  color: red;
+  
+  width: 33%;
+  text-align: left;
+  Left: 100px;
+
+}
+#yelp1{
+  color: rgb(0, 0, 0);
+  
+  width: 33%;
+  position: relative;
+  Left: 200px;
+
+}
+#yelp2{
+  color: rgb(0, 0, 0);
+  text-align: left;
+  width: 33%;
+  position: relative;
+  Left: 600px;
+
+}
+#yelpr1{
+  color: red;
+  text-decoration: underline;
+  margin-top: 100px
+}
+
+#yelpr2{
+  color: red;
+  text-decoration: underline;
+}
+#yelplink{
+  margin-top: 20px;
+  margin-bottom: 100px;
+  
+
+  
+}
+
+
+
+
+h1{
+  margin-top: 150px;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+ul{
+
+  margin-bottom: 77px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  background: #272727;
+
+}
+*{
+  margin: 0px;
+
+}
+ul li{
+  width: 100%;
+  text-align: center ;
+  position: relative;
+}
+ ul li a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px;
+ display: block;
+
+ }
+ ul li a:hover{
+  color: rgb(0, 0, 0);
+ }
+ .dropdown{
+  position: absolute;
+  width: 100%;
+  flex-wrap: wrap;
+  visibility: hidden;
+  transition: 0.6s ;
+  left: 0;
+  top: -600%;
+  z-index: -7;
+  
+ }
+
+
+ ul li:hover .dropdown {
+  visibility: visible;
+  top: 100%;
+  z-index: 100;
+ }
+
+
+
+.dropdown:hover li .dropdown2 ul li {
+  left: 100%;
+  visibility:visible;
+  z-index: 100;
+
+}
+@media (max-width: 767px){
+  ul{
+    display: table;
+    width: 100%;
+   
+
+  }
+  ul li{
+    text-align:left;
+    
+  }
+}
+
+.dropdown3{
+  position: absolute;
+  left: 150%;
+  width: 100%;
+  top: 0;
+flex-wrap: wrap;
+transition: 1.5s;
+visibility: hidden;
+
+}
+
+
+.dropdown li:hover .dropdown3 {
+  left: 100%;
+  visibility:visible;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
