@@ -27,8 +27,10 @@ body{
 }
 
 #Hotels1{
+  
   color: Black;
   font-stretch: bold;
+  margin-bottom: 155px;
 }
 
 #WestOmaha2{
@@ -66,3 +68,108 @@ body{
 #OldMarket22{
     color: black;
 }
+
+
+
+
+
+
+
+
+
+h1{
+  margin-top: 150px;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+}
+
+ul{
+
+  margin-bottom: 77px;
+  padding: 0px;
+  list-style: none;
+  display: flex;
+  background: #272727;
+
+}
+*{
+  margin: 0px;
+
+}
+ul li{
+  width: 100%;
+  text-align: center ;
+  position: relative;
+}
+ ul li a{
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px;
+ display: block;
+
+ }
+ ul li a:hover{
+  color: rgb(0, 0, 0);
+ }
+ .dropdown{
+  position: absolute;
+  width: 100%;
+  flex-wrap: wrap;
+  visibility: hidden;
+  transition: 0.6s ;
+  left: 0;
+  top: -600%;
+  z-index: -7;
+  
+ }
+
+
+ ul li:hover .dropdown {
+  visibility: visible;
+  top: 100%;
+  z-index: 100;
+ }
+
+
+
+.dropdown:hover li .dropdown2 ul li {
+  left: 100%;
+  visibility:visible;
+  z-index: 100;
+
+}
+@media (max-width: 767px){
+  ul{
+    display: table;
+    width: 100%;
+   
+
+  }
+  ul li{
+    text-align:left;
+    
+  }
+}
+
+.dropdown3{
+  position: absolute;
+  left: 150%;
+  width: 100%;
+  top: 0;
+flex-wrap: wrap;
+transition: 1.5s;
+visibility: hidden;
+
+}
+
+
+.dropdown li:hover .dropdown3 {
+  left: 100%;
+  visibility:visible;
+
+}
+
+
+
+
