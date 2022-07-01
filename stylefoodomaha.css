@@ -25,7 +25,9 @@ body{
   padding-left: 10px;
   
 }
-
+.content {
+  background-color: white;
+}
 #Food1{
   color: rgb(255, 0, 0);
   font-stretch: bold;
